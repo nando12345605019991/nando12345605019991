@@ -59,3 +59,13 @@ git commit -m "Adicionar nome.txt com meu nome completo"
 # Envia o branch 'exercicio_git' para o repositório remoto no GitHub
 
 git push -u origem exercicio_git
+
+# Para criar uma nova branch:
+git branch nome_da_branch
+
+# Para trocar para a branch criada:
+git checkout nome_da_branch
+
+# Para criar um novo arquivo, você pode usar o editor de texto de sua preferência. Por exemplo, usando o touch no terminal:
+touch nome_do_arquivo.ext
+
